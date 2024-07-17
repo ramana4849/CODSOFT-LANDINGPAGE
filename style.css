@@ -45,7 +45,7 @@ header .navigation .navigation-items a:before{
     height: 3px;
     bottom: -2px;
     left: 0;
-    transition:1.3s ease;    
+    transition:1.0s ease;    
 }
 header .navigation .navigation-items a:hover:before{
     width: 100%;
