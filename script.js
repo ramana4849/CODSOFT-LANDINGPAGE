@@ -1,3 +1,13 @@
+const menuBtn = document.querySelector(".menu-btn");
+const navigation = document.querySelector(".navigation");
+
+menuBtn.addEventListener("click", () => { 
+    menuBtn.classList.toggle("active"); 
+    navigation.classList.toggle("active"); 
+});
+
+
+
 //Javacript for video slider navigation
 const btns = document.querySelectorAll(".nav-btn");
 const slides = document.querySelectorAll(".video-slide"); 
